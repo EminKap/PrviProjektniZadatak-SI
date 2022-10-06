@@ -1,0 +1,33 @@
+body {
+    background-color: paleturquoise;
+}
+.center {
+    text-align: center;
+}
+h1{
+    font-family: verdana;
+}
+p {
+    text-align: center;
+    font-family: verdana;
+}
+form {
+    font-family: verdana;
+}
+img {
+    width: 15%;
+    height: 15%;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-container img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.center-container button {
+    margin-left: 5px;
+    margin-right: 5px;
+}

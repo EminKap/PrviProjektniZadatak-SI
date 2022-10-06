@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign up</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Sign up for an account!</h1>
+<form method="get">
+    First name: <br><input type="text" name="firstname" required><br>
+    Last name: <br><input type="text" name="lastname"><br>
+    E-mail: <br><input type="type" id="email" name="email" required><br>
+    Password: <br><input type="password" name="password" min="8" required><br>
+    Birthday: <br><input type="date" name="birthday"><br>
+    Gender: <br>
+        <input type="radio" name="gender" value="male"> Male <br>
+        <input type="radio" name="gender" value="female"> Female <br>
+        <input type="radio" name="gender" value="other"> Other <br>
+    What pets do you have? <br>
+        <input type="checkbox" name="pets" value="cat"> Cat <br>
+        <input type="checkbox" name="pets" value="dog"> Dog <br>
+        <input type="checkbox" name="pets" value="fish"> Fish <br>
+        <input type="checkbox" name="pets" value="bird"> Bird <br>
+    What car do you drive?
+    <select name="car">
+        <option>Audi</option>
+        <option>BMW</option>
+        <option>VW</option>
+        <option>Renault</option>
+        <option>Toyota</option>
+    </select><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+</form>
+<button onclick="document.location='index.html'">Go back</button>
+
+</body>
+</html>
